@@ -1,0 +1,43 @@
+.reindeer .v-window-outerheader.minimizable {
+padding: 12px 72px 0 14px !important;
+}
+.reindeer .v-window-minimizebox,
+.reindeer .v-window-light .v-window-minimizebox,
+.reindeer .v-window-black .v-window-minimizebox,
+.reindeer .v-window-minimizebox:active,
+.reindeer .v-window-light .v-window-minimizebox:active,
+.reindeer .v-window-black .v-window-minimizebox:active{
+        position: absolute;
+	right: 45px;
+	width: 15px;
+	height: 16px;
+        cursor: none;
+        background-image: url('minimize.PNG'); 
+}
+.reindeer .v-window-minimizebox{
+    top: 11px;
+}
+.reindeer .v-window-light .v-window-minimizebox {
+  top: 17px;  
+}
+.reindeer .v-window-black .v-window-minimizebox {
+  top: 8px;
+}
+.reindeer .v-window-minimizebox:hover,
+.reindeer .v-window-light .v-window-minimizebox:hover,
+.reindeer .v-window-black .v-window-minimizebox:hover {
+  cursor: pointer;
+}
+.reindeer .v-window-minimizebox.minimized,
+.reindeer .v-window-light .v-window-minimizebox.minimized,
+.reindeer .v-window-black .v-window-minimizebox.minimized,
+.reindeer .v-window-minimizebox.minimized:active,
+.reindeer .v-window-light .v-window-minimizebox.minimized:active,
+.reindeer .v-window-black .v-window-minimizebox.minimized:active{
+	right: 27px !important;
+        background-image: url('vertical-sprites.png') !important;
+        background-position: left -1860px;
+}
+.reindeer .v-window-maximizebox.minimized, .reindeer .v-window-restorebox.minimized{
+    display:none !important;
+}
